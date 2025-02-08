@@ -81,39 +81,6 @@ The following features are implemented in the project:
 6. **Django Admin Interface**:
    - Admins can view, add, edit, and delete listings, comments, and bids.
 
----
 
-## Hints and Tips
-1. **Database Migrations**:
-   - After modifying models, run:
-     ```bash
-     python manage.py makemigrations
-     python manage.py migrate
-     ```
-
-2. **Creating a Superuser**:
-   - To access the Django admin interface, create a superuser:
-     ```bash
-     python manage.py createsuperuser
-     ```
-
-3. **Forms**:
-   - Use Django forms for user inputs (e.g., creating listings, bidding, commenting).
-
-4. **Decorators**:
-   - Use `@login_required` to restrict views to authenticated users.
-
-5. **Customizing Layout**:
-   - Modify CSS and `layout.html` to personalize the appearance of the site.
-
----
-
-## Additional Notes
-- Ensure that bids meet the minimum criteria (greater than the starting bid and higher than any existing bids).
-- Listings should dynamically update based on their active/closed status.
-- Use categories to organize and filter listings effectively.
-- Encourage user interaction via comments and Watchlist management.
-
-This README serves as a reference for understanding the functionality and implementation of the auction site. Feel free to enhance the project further to suit your requirements!
 
 
